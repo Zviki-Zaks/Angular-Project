@@ -1,0 +1,11 @@
+<section class="contact-details container" *ngIf="contact">
+    <h1 class="title">Contact Details</h1>
+    <div class="contact-img" [ngStyle]="contactImg"></div>
+    <h2>{{contact.name}}</h2>
+    <h4>Phone: {{contact.phone}}</h4>
+    <h4>Email: {{contact.email}}</h4>
+    <nav class="flex space-between">
+        <a routerLink="/contact/edit/{{contact._id}}" class="simple-button">Edit</a>
+        <a routerLink="/contact" class=" simple-button">Back</a>
+    </nav>
+</section>

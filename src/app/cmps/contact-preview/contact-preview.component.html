@@ -1,0 +1,8 @@
+<section class="contact-preview" (click)="onPreview()">
+    <div class="contact-img" [ngStyle]="contactImg"></div>
+    <span class="contact-name">{{contact.name}}</span>
+    <section class="actions">
+        <button (click)="onRemoveContact($event)">❌</button>
+        <button (click)="onEditContact($event)">✖️</button>
+    </section>
+</section>
