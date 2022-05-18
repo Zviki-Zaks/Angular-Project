@@ -1,8 +1,9 @@
 # BITBIT
 
 My first Angular project.
+
 Using bitcoin api
 
-**AngularJS**
+**AngularJS** **ngxCarts**
 
 
