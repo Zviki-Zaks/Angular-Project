@@ -4,6 +4,6 @@ My first Angular project.
 
 Using bitcoin api
 
-**AngularJS** **ngxCarts**
+**AngularJS** | **ngxCarts**
 
 
